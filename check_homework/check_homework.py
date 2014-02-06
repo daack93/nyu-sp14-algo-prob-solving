@@ -13,6 +13,8 @@ from bs4 import BeautifulSoup
 import urllib, urllib2
 import simplejson as json
 import os
+import subprocess
+import glob
 
 print "arguments:", str(sys.argv[1:])
 
