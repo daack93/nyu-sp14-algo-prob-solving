@@ -100,3 +100,8 @@ for (name, problem_id), (submission_id, language) in answers.iteritems():
 	solution_file = open(solution_file_path, "w")
 	solution_file.write(solution_code)
 	solution_file.close()
+
+# Run moss
+
+#print subprocess.check_output(["./moss", "-l", "cc"]+glob.glob("homework/"+        str(contest_id)+"/*.cpp"))
+#print subprocess.check_output(["./moss", "-l", "java"]+glob.glob("homework/"+      str(contest_id)+"/*.java"))
